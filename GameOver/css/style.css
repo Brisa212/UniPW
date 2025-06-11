@@ -1,0 +1,205 @@
+/*  Este style.css se utilia solament para index.html*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    background-color: rgb(237, 154, 228);
+}
+
+#img1{
+    width: 150px;
+    display: inline;
+    
+}
+
+#form1{
+    display: inline-flex;
+    margin-left: 200px;
+}
+
+#chl-edit{
+    width: 600px;
+    height: 40px;
+    font-size: 20px;
+}
+
+/*Productos*/
+
+.text-joy{
+    font-family: 'Roboto', sans-serif;
+    text-decoration-line: none;
+    display: inline;
+    margin-left: 15px;
+    text-decoration-color: beige;
+    text-transform: unset;
+    font-size: 18px;
+    margin-left: 1145px;
+    
+}
+
+
+#num1{
+    font-size: 25px;
+}
+
+/*Registro*/
+
+.text-reg{
+    font-family: 'Roboto', sans-serif;
+    text-decoration-line: none;
+    margin-left: 1000px;
+    text-decoration-color: beige;
+    text-transform: unset;
+    font-size: 18px;
+    
+}
+
+#num2{
+    font-size: 25px;
+}
+
+/*Registro2*/
+
+.text-reg_1{
+    display: inline;
+    
+}
+
+/*Icono Facebook*/
+
+#facebook{
+    color: blue;
+    display:inline-flex;
+    font-size: 23px;
+    margin-left: 15px;
+}
+
+#Facetext{    
+    text-decoration-line: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    display: inline;
+    
+}
+
+/*Icono Instagram*/
+
+#instagram{
+    color: rgb(226, 25, 92);
+    display:inline-flex;
+    font-size: 23px;
+    margin-left: 15px;
+}
+
+#Instatext{
+    text-decoration-line: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    display: inline;
+    
+}
+
+/*Icono Whatsapp*/
+
+#whatsapp{
+    color: rgb(28, 200, 28);
+    display:inline-flex;
+    font-size: 23px;
+    margin-left: 15px;
+}
+
+#Whattext{
+    text-decoration-line: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    display: inline;
+}
+
+/*Icono X*/
+
+#X{
+    display:inline-flex;
+    font-size: 23px;
+    margin-left: 15px;
+}
+
+#textX{
+    text-decoration-line: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    display: inline;
+}
+
+                                    /*Nuestra Ubicación*/
+
+/*Icono Ubicación*/                                    
+
+#ubi{
+    color: rgb(227, 115, 17);
+    display:inline-flex;
+    font-size: 23px;
+    margin-left: 15px;
+}
+    
+
+#textubi{
+   font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    display: inline;
+
+}
+
+#mapa{
+       
+    width: 500px;
+    height: 400px;
+    border: 0;
+    margin-left: 400px;
+
+}
+                                 /*form-footer*/
+
+#form{
+    text-align: center;
+}
+
+
+#nombre{
+    width: 300px;
+}
+
+#apellido{
+
+    width: 300px;
+}
+
+#email{
+
+    width: 300px;
+
+}
+
+#telefono{
+
+    width: 300px;
+
+}
+
+#mensaje{
+    width: 300px;
+    height: 100px;
+
+}

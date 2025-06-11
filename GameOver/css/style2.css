@@ -1,0 +1,129 @@
+                        /*Este style.css se utiliza solamente para Registro.html*/
+#cuerpo{
+    background-color: #dc31c8;
+}
+
+#form2{
+margin: 0; 
+padding: 0; 
+}
+
+.container { 
+max-width: 100%;
+box-sizing: border-box;
+background-color:rgb(237, 154, 228) ; 
+display: flex; 
+align-items: center; 
+justify-content: center;
+}
+
+.form-content { 
+width: 100%; 
+max-width: 450px; 
+background-color: rgb(228, 103, 213); 
+padding: 50px 60px 70px; 
+text-align: center; 
+border-radius: 25px;
+} 
+.form-content h1 { 
+font-size: 30px; 
+margin-bottom: 10px; 
+color: #FFFFFF; 
+position: relative; 
+}
+
+#logo2{
+    width: 120px;
+}
+
+.form-content h1::after { 
+width: 30px; 
+height: 4px; 
+position: absolute; 
+bottom: 13px; 
+left: 50%; 
+transform: translateX(-50%);
+}
+
+#sobre{
+    width: 500px;
+    
+}
+
+#name{
+    width: 500px;
+}
+
+#contra{
+    width: 500px;
+}
+
+.input-field { 
+background-color: #d490e5; 
+margin: 15px 0; 
+border-radius: 3px; 
+display: flex; 
+align-items: center; 
+transition: max-height 0.5s; 
+overflow: hidden;
+} 
+
+input { 
+width: 100%; 
+background: transparent; 
+border: 0; 
+outline: none; 
+padding: 18px 15px; 
+color: #FFFFFF; 
+}
+
+input::placeholder { 
+color: #FFFFFF; 
+} 
+
+.input-field i { 
+margin-left: 15px; 
+color: #04BD7D; 
+} 
+
+form p { 
+color: #f8f2f2; 
+font-size: 13px; 
+text-align: center;
+} 
+
+
+form p a {
+background-color:rgb(228, 103, 213) ; 
+margin-left: 5px;
+text-align: center;
+}
+
+.btn-field { 
+width: 100%; 
+display: flex; 
+justify-content: space-between; 
+
+} 
+
+.btn-field button { 
+flex-basis: 48%; 
+font-size: 16px; 
+background-color: rgb(186, 46, 169) ; 
+color: #FFFFFF; 
+height: 40px; 
+border-radius: 10px; 
+border: 0; 
+outline: 0; 
+cursor: pointer; 
+transition: background 1s; 
+} 
+.input-group { 
+height: 250px; 
+} 
+
+.btn-field button.disable { 
+background-color: 
+#EAEAEA; 
+color: #2C2F35;
+}
